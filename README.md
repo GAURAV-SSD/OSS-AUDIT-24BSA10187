@@ -1,8 +1,8 @@
 # OSS Capstone Audit — Git (Version Control System)
 Git (GPLv2) Capstone Audit for Open Source Software (OSS) in Victoria University of Technology (VUT) Course: Open Source Software Modern Development (OSSD). The audit provides a 14-page report covering the origin story and the license analysis of Git, the Linux footprint of Git and the Free and Open Source Software (FOSS) ecosystem in general, and includes five shell scripts showing practical usage of Linux.
 
-**Student Name:**[HARSHIT]
-**Student Roll Number:** 24BAI10967
+**Student Name:**GAURAV BHARDWAJ
+**Student Roll Number:** 24BSA10187
 **Course:** Open Source Software (OSSD), VUT
 **Audited Software:** Git - distributed version control system
 **Audited Software License:** GPLv2
