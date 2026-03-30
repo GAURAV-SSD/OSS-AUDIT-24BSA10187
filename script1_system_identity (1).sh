@@ -4,15 +4,15 @@
 # Description: Displays a welcome screen with system information
 
 # --- Variables ---
-STUDENT_NAME="Gaurav Bhardwaj"   # Student name
-REG_NO="24BSA10187"              # Registration number
-SOFTWARE_CHOICE="Git"            # Chosen open-source software
+STUDENT_NAME="Gaurav Bhardwaj"   
+REG_NO="24BSA10187"             
+SOFTWARE_CHOICE="Git"          
 
 # --- Collect system info using command substitution ---
-KERNEL=$(uname -r)                          # Kernel version
-USER_NAME=$(whoami)                         # Current logged-in user
-HOME_DIR=$HOME                              # Home directory of current user
-DATETIME=$(date '+%d %B %Y, %H:%M:%S')     # Current date and time
+KERNEL=$(uname -r)                         
+USER_NAME=$(whoami)                    
+HOME_DIR=$HOME                            
+DATETIME=$(date '+%d %B %Y, %H:%M:%S')   
 
 # macOS-compatible uptime (strips leading whitespace)
 UPTIME=$(uptime | sed 's/.*up //' | sed 's/,.*//')
