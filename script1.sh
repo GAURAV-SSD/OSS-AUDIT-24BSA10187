@@ -1,0 +1,35 @@
+#!/bin/bash
+
+# Script 1: System Identity Report
+# Author: Gaurav Bhardwaj
+# Registration Number: 24BSA10187
+
+KERNEL=$(uname -r)
+USER_NAME=$(whoami)
+UPTIME=$(uptime -p)
+DATE=$(date)
+
+echo "======================================"
+echo " OPEN SOURCE AUDIT — SYSTEM REPORT "
+echo "======================================"
+
+echo "Student Name: GAURAV BHARDWAJ"
+echo "Registration Number: 24BSA10187"
+
+echo "--------------------------------------"
+
+echo "Current Logged-in User:"
+echo "$USER_NAME"
+
+echo "Kernel Version:"
+echo "$KERNEL"
+
+echo "System Uptime:"
+echo "$UPTIME"
+
+echo "Current Date and Time:"
+echo "$DATE"
+
+echo "--------------------------------------"
+echo "This system is based on an open-source Unix-like architecture."
+echo "======================================"
