@@ -7,9 +7,9 @@
 # Example: ./script4_log_analyzer.sh /var/log/system.log error
 
 # --- Accept command-line arguments ---
-LOGFILE=$1                  # First argument: path to log file
-KEYWORD=${2:-"error"}       # Second argument: keyword to search (default: 'error')
-COUNT=0                     # Counter variable — starts at zero
+LOGFILE=$1               
+KEYWORD=${2:-"error"}      
+COUNT=0             
 
 echo "========================================"
 echo "       Log File Analyzer"
